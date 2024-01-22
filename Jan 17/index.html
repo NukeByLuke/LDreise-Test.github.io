@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <title>Table</title>
+        <!-- Internal CSS -->
+        <!--"border-collapse" makes it to where there isn't any spaces in the table-->
+        <style>
+            td{
+                border: 1px solid black;
+            }
+            th{
+                border: 2px solid black;
+            }
+            table{
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+
+        <body>
+            <!--Table-->
+            <table>
+                <!--"thead" is just used to make it easier to sort out in our code-->
+                <thead>
+                    <!--"tr" stands for table row-->
+                    <tr>
+                        <!--"th" makes the text in the col bold-->
+                        <th>Col 1</th>
+                        <th>Col 2</th>
+                        <th>Col 3</th>
+                    </tr>
+                <!--"tbody" is just used to make it easier to sort out in our code-->
+                <tbody>
+                    <tr>
+                        <th>Row 1</th>
+                        <!--"colspan" and "rowspan" just determine how wide and tall each table section is-->
+                        <td colspan="2" rowspan="2"> Cell 1 </td> 
+                    </tr>
+                    <tr>
+                        <th>Row 2</th>
+                    </tr>
+                </tbody>
+                </thead>
+            </table>
+        </body>
+</html>

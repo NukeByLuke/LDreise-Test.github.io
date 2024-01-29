@@ -1,0 +1,25 @@
+#ford, #honda, #chev, #total, #red, #green, #blue, #white, #black, #totaltwo {
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    text-align: left;
+}
+td, th{
+    width: 75px;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    border: 2px solid black;
+}
+tr:nth-of-type(odd) {
+    background-color: pink;
+    color: white;
+}
+caption {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}

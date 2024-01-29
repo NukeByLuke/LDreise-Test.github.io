@@ -1,6 +1,6 @@
 #ford, #honda, #chev, #total, #red, #green, #blue, #white, #black, #totaltwo {
     background-color: black;
-    opacity: 50%;
+    opacity: 70%;
     color: white;
     text-align: left;
 }
@@ -16,6 +16,10 @@ table{
 }
 tr:nth-of-type(odd) {
     background-color: pink;
+    color: white;
+}
+tr:nth-of-type(even) {
+    background-color: palevioletred;
     color: white;
 }
 caption {

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1094583002/vector/abstract-blur-beautiful-pink-color-gradient-and-shine-flash-glowing-background-with.jpg?s=612x612&w=0&k=20&c=qigE0qIoi_qruOJiCWthR01H4JXIzATJi4jjrlliXNk=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ask {
+    color: red;
+    font-weight: 700;
+    border: 3px solid black;
+    text-align: center;
+    width: 50vh;
+    background-color: white;
+}
+
+button {
+    margin-top: 20px;
+}
+#yesButton {
+    color: white;
+    background-color: palevioletred;
+    width: 10vh;
+    height: 5vh;
+    font-size: larger;
+    font-weight: 700;
+}
+#noButton {
+    color: lightgrey;
+    background-color: black;
+    width: 10vh;
+    height: 5vh;
+    font-size: larger;
+    font-weight: 700;
+}
+#poem {
+    border: 3px dotted black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+    height: 50vh;
+    width: 35vh;
+    background-image: url('https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706659200&semt=ais');
+    background-size: cover;
+}
+#noInfo {
+    text-align: center;
+}
